@@ -1,0 +1,31 @@
+{
+  "name": "WinTabViewTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "postinstall": "node node_modules/typings/dist/bin.js install",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-addons-shallow-compare": "^15.3.2",
+    "react-native": "0.37.0",
+    "react-native-tab-view": "0.0.38",
+    "react-native-windows": "^0.37.1"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.0",
+    "jest-react-native": "17.0.0",
+    "react-test-renderer": "15.3.2",
+    "rnpm-plugin-windows": "^0.2.3",
+    "typescript": "^2.0.9",
+    "typings": "^2.0.0"
+  }
+}
